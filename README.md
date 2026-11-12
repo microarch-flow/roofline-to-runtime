@@ -1,5 +1,7 @@
 # 大模型推理与推理引擎 · 学习 Wiki
 
+> 本系列的日常维护已迁至 [主 Wiki 的 `series/inference-runtime/`](https://github.com/microarch-flow/wiki/tree/main/series/inference-runtime)。公开阅读入口为 [推理运行时](https://microarch-flow.github.io/wiki/series/inference-runtime/)。十五篇正文仍为草稿；本仓保留旧版内容和历史。
+
 > 视角:**系统软件架构师 / 成本模型**。不是通用入门教程——每个机制尽量落到可量化的量(roofline、算术强度、KV 字节、带宽、流量、固定成本摊薄),并标注「与硬件建模 / 架构探索的接口」。写作约束见 [`_conventions.md`](_conventions.md),术语见 [`glossary.md`](glossary.md)。
 
 ## 状态总览
